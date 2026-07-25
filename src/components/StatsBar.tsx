@@ -1,4 +1,4 @@
-import { motion, useInView } from 'motion/react';
+import { motion, useInView } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 
 function AnimatedCounter({ value, duration = 2 }: { value: number, duration?: number }) {

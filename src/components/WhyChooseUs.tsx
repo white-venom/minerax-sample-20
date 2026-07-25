@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Shield, Clock, Globe, Leaf } from 'lucide-react';
 
 export default function WhyChooseUs() {
