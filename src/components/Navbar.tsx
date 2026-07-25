@@ -13,10 +13,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0 flex items-center gap-2">
-              <div className="w-8 h-8 bg-white flex items-center justify-center rounded-sm">
-                <span className="text-black font-bold text-xl leading-none">M</span>
-              </div>
-              <span className="font-bold text-2xl tracking-tighter">MINERAX</span>
+              <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
             </a>
           </div>
           <div className="hidden md:block">
