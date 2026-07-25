@@ -58,7 +58,7 @@ export default function Facilities() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
               
               <div className="absolute bottom-0 left-0 p-8 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                <div className="w-12 h-1 bg-orange-500 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"></div>
+                <div className="w-12 h-1 bg-orange-500 mb-4 opacity-75 group-hover:opacity-100 transition-opacity duration-300 delay-100"></div>
                 <h4 className="text-2xl font-bold mb-1">{item.title}</h4>
                 <p className="text-gray-300 font-medium tracking-wide uppercase text-sm">{item.desc}</p>
               </div>
